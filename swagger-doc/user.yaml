@@ -1,0 +1,39 @@
+/user/register:
+  post:
+    tags:
+      - User
+    summary: RegisterUser
+    requestBody:
+      content:
+        application/json:
+          schema:
+            type: object
+            example:
+              username: Mohit
+              password: >-
+                Test@1234
+    responses:
+      "200":
+        description: Successful response
+        content:
+          application/json: {}
+
+/user/login:
+  post:
+    tags:
+      - User
+    summary: Login
+    requestBody:
+      content:
+        application/json:
+          schema:
+            type: object
+            example:
+              username: Mohit
+              password: >-
+                Test@1234
+    responses:
+      "200":
+        description: Successful response
+        content:
+          application/json: {}

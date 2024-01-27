@@ -1,0 +1,13 @@
+{
+  "unauthorized": "Unauthorized request",
+  "SUCCESS": "Success",
+  "user_not_found": "User not found",
+  "user_updated": "User updated",
+  "incorrect_password": "Incorrect Password",
+  "user_already_exists": "User already exists",
+  "Username already exists": "Username already exists",
+  "Invalid password": "Invalid password",
+  "User not registered": "User not registered",
+  "Username not found": "Username not found",
+  "Internal Server Error": "Internal Server Error"
+}

@@ -1,0 +1,20 @@
+paths:
+  /product:
+    get:
+      tags:
+        - Products
+      description: get all products
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: x-auth-token
+          required: true
+          type: string
+      responses:
+        200:
+          description: Submitted survey results successfully...
+        400:
+          description: Bad request
+        500:
+          description: Server Error

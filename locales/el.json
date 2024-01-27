@@ -1,0 +1,8 @@
+{
+  "unauthorized": "Unauthorized request",
+  "SUCCESS": "Success",
+  "user_not_found": "User not found",
+  "user_updated": "User updated",
+  "incorrect_password": "Incorrect Password",
+  "user_already_exists": "User already exists"
+}
